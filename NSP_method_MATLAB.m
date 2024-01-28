@@ -44,7 +44,7 @@ dt = mean(diff(t));
 savePlots = 0;%Whether or not to save SNR maps and cylindrical cross section plots for each wavenumber.
 
 clear STAT_SA;
-verbose = 1;%Whether or not to show the surface images
+verbose = 0;%Whether or not to show the surface images
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Make the IMG_SEQ structure. - step 2
